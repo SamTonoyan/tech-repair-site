@@ -1,0 +1,12 @@
+
+> tech-repair-site@0.1.0 dev
+> next dev --port 3000
+
+▲ Next.js 16.3.0 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.75:3000
+✓ Ready in 2.6s
+✓ Running next.config.ts took 332ms
+
+○ Compiling / ...
+ GET / 200 in 8.5s (next.js: 7.6s, application-code: 819ms)
