@@ -22,8 +22,14 @@ export function Header() {
               width={36}
               height={36}
               className="h-9 w-9 object-contain"
-/>
-          
+              />
+          <Image
+              src="/images/fullogo.svg"
+              alt={siteConfig.name}
+              width={150}
+              height={45}
+              className="h-10 w-auto object-contain"
+              />
           <span className="leading-none">
             <span className="block text-sm font-semibold uppercase tracking-[0.18em] text-white">
               {siteConfig.name}
