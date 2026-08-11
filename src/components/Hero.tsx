@@ -1,6 +1,7 @@
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { siteConfig } from "@/data/site";
 import { TechVisual } from "./TechVisual";
+import Image from "next/image";
 
 export function Hero() {
   return (
@@ -55,8 +56,18 @@ export function Hero() {
         </div>
 
         <div data-hero-visual className="lg:justify-self-end">
-          <TechVisual />
-        </div>
+
+  <Image
+    src="/images/fullogo.svg"
+    alt="BYTTEC"
+    width={220}
+    height={70}
+    className="mb-6 h-auto w-[220px] object-contain"
+  />
+
+  <TechVisual />
+
+</div>
       </div>
     </section>
   );
