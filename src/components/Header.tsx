@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { navItems, siteConfig } from "@/data/site";
+import Image from "next/image";
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,9 +16,14 @@ export function Header() {
           className="group flex items-center gap-3 rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-mint"
           aria-label="Retour a l'accueil"
         >
-          <span className="grid h-9 w-9 place-items-center border border-mint/45 bg-mint/10 text-sm font-bold text-mint">
-            T
-          </span>
+          <Image
+              src="/images/logo.svg"
+              alt={siteConfig.name}
+              width={36}
+              height={36}
+              className="h-9 w-9 object-contain"
+/>
+          
           <span className="leading-none">
             <span className="block text-sm font-semibold uppercase tracking-[0.18em] text-white">
               {siteConfig.name}
