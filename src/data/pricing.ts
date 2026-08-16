@@ -32,7 +32,7 @@ export const pricing: PriceItem[] = [
     id: "installation-ssd",
     label: "Installation SSD",
     description: "Remplacement ou ajout d'un disque rapide selon votre appareil.",
-    price: "A partir de 50 EUR",
+    price: "A partir de 90 EUR",
     visible: true,
   },
   {
