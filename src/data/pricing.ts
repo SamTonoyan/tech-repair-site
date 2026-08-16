@@ -10,7 +10,7 @@ export const pricing: PriceItem[] = [
   {
     id: "diagnostic-ordinateur",
     label: "Diagnostic ordinateur",
-    description: "Nous cherchons la cause du probleme et vous expliquons les options.",
+    description: "Diagnostic à partir de 20 EUR - débuit si réparation acceptée.",
     price: "20 EUR",
     visible: true,
   },
@@ -18,14 +18,14 @@ export const pricing: PriceItem[] = [
     id: "installation-windows",
     label: "Installation Windows",
     description: "Installation propre, reglages essentiels et verification du demarrage.",
-    price: "40 EUR",
+    price: "69.90 EUR",
     visible: true,
   },
   {
     id: "nettoyage-pc",
     label: "Nettoyage PC",
     description: "Nettoyage logiciel pour rendre l'utilisation plus fluide.",
-    price: "30 EUR",
+    price: "79.90 EUR",
     visible: true,
   },
   {
