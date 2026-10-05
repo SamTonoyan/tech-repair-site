@@ -18,7 +18,7 @@ export const pricing: PriceItem[] = [
     id: "installation-windows",
     label: "Installation Windows",
     description: "Installation propre, reglages essentiels et verification du demarrage.",
-    price: "69.90 EUR",
+    price: "59.90 EUR",
     visible: true,
   },
   {
@@ -29,10 +29,17 @@ export const pricing: PriceItem[] = [
     visible: true,
   },
   {
+    id: "nettoyage-pc + migration-windows",
+    label: "Nettoyage PC + Migration Windows",
+    description: "Nettoyage logiciel pour rendre l'utilisation plus fluide et migration vers Windows 11.",
+    price: "110 EUR",
+    visible: true,
+  },
+  {
     id: "installation-ssd",
     label: "Installation SSD",
     description: "Remplacement ou ajout d'un disque rapide selon votre appareil.",
-    price: "A partir de 90 EUR",
+    price: "A partir de 60 EUR",
     visible: true,
   },
   {
